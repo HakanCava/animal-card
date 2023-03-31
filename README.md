@@ -88,6 +88,10 @@ Build a Animal Galary App using ReactJS-SASS.
 2. There shouldn't be any warnings in your application.
 3. If you have deployed your app to github pages before, you should remove `homepage` property from `package.json`.
 
+## Deployed
+
+- Vercel: https://animal-card-tan.vercel.app/
+
 You can use any of these sites for deployment
 
 - https://www.netlify.com/
