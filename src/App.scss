@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+@import "./scss/mixins", "./scss/reset", "./scss/variables";
+
+body {
+  font-family: "Titan One", cursive;
+  background-image: $backgroundImage1;
+  background-attachment: fixed;
+}
