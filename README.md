@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Project: AnimalGalary App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Project aims to create a Animal Cards App.
 
-In the project directory, you can run:
+## Problem Statement
 
-### `yarn start`
+- I am adding a new project to my portfolios. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Skeleton
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+Animal-Galary(folder)
+|
+|----readme.md         
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── Card 
+|    |       |     ├── Card.jsx
+|    |       |     └── Card.scss
+│    │       ├── Footer
+|    |       |     ├── Footer.jsx
+|    |       |     └── Footer.scss
+│    │       ├── Header
+|    |       |     ├── Header.jsx
+|    |       |     └── Header.scss
+│    │       └── Main
+|    |             ├── Main.jsx
+|    |             └── Main.scss
+│    │       
+│    ├── helpers
+|    |       ├── animalsWorld.png
+│    │       └── data.js
+│    ├── scss
+|    |       ├── _mixin.scss
+|    |       ├── _reset.scss
+│    │       └── _variables.scss
+│    ├── App.js
+│    ├── App.scss
+│    └── index.js
+├── package.json
+└── yarn.lock
+```
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build a Animal Galary App using ReactJS-SASS.
 
-### `yarn eject`
+### At the end of the project, following topics are to be covered;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- SASS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- JS
 
-## Learn More
+- ReactJS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### At the end of the project;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- improve coding skills within HTML & CSS & SASS & JS & ReactJS.
 
-### Code Splitting
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Steps to Solution
 
-### Analyzing the Bundle Size
+- Step 1: Create React App using `yarn create react-app animal-galary`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Step 2: Build Animal-galary app using [data.js](data.js) folder.
 
-### Making a Progressive Web App
+- Step 4: Push your application into your own public repo on Github
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Step 5: Add README.md file.
 
-### Advanced Configuration
+## Deployment Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. There should be only one lock file `package-lock.json` or `yarn.lock`.
+2. There shouldn't be any warnings in your application.
+3. If you have deployed your app to github pages before, you should remove `homepage` property from `package.json`.
 
-### Deployment
+You can use any of these sites for deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- https://www.netlify.com/
+- https://vercel.com/
+- https://render.com/
+- https://app.cyclic.sh/
 
-### `yarn build` fails to minify
+- You can add additional functionalities to your app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
